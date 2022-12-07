@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F2F5;
+    padding: 0;
+}
+
+
+.ContainerApp{
+    text-align: center;
+    padding: 0;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #050505;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color:#0C86EE;
+}
+
+.containerFormulario{
+    padding: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+
+}
+.formularioBtn {
+  width: 150px;
+  height: 60px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonCreate{
+    border-radius: 10px;
+    border: #606293;
+    color: #606293;
+    margin-left: 5px;
+}
+.btnEditar{
+    font-weight: 800;
+    border-radius: 10px;
+    border: #606293;
+    color: #606293;
+    height: 40px;
+    width: 60px;
+}
+.btnDelete{
+    font-weight: 800;
+    border-radius: 10px;
+    border: #606293;
+    color: #606293;
+    height: 40px;
+    width: 60px;
+}
